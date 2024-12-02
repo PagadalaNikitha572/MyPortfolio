@@ -2,7 +2,7 @@
 import './App.css'
 import Contact from './components/Contact';
 import Education from './components/Education';
-import Hero from './components/hero';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Projects from './components/projects';
 import Skills from './components/Skills';
