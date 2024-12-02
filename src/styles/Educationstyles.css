@@ -49,9 +49,13 @@
 
 /* Responsive Design */
 @media (max-width: 800px) {
+    .education-container{
+        margin-top: 150px;
+    }
     .education-content {
         flex-direction: column;
         text-align: center;
+        margin-top: 20px;
     }
 
     .education-image {
