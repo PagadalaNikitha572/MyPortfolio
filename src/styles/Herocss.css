@@ -1,0 +1,80 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  height: 60vh; /* Adjust height for better layout */
+  margin: 0;
+  padding: 0 20px;
+  scroll-margin-top: 70px; /* Ensure smooth scrolling stops after navbar */
+  margin-top: 70px; /* Offset for fixed navbar */
+  font-family: 'Roboto Mono', monospace; 
+}
+
+/* Ensure spacing on smaller screens */
+@media (max-width: 800px) {
+  .hero-container {
+    margin-top: 160px; /* Increase margin-top to ensure space between navbar and hero section */
+    margin-bottom: 100px; 
+  }
+}
+.hero-container h1, .hero-container h2, .hero-container p {
+  font-family: 'Roboto Mono', monospace;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.hero-image {
+  flex-shrink: 0;
+}
+
+.hero {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+span {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+span a img {
+  width: 30px;
+}
+
+/* Button styling */
+button {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Layout */
+@media (min-width: 800px) {
+  .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info {
+    text-align: left;
+  }
+}
