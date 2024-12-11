@@ -45,9 +45,7 @@ When I'm not immersed in tech, I channel my creativity into portraiture and desi
                         <img src={leetcodeicon} alt="Leetcode" />
                     </a>
                 </span>
-                <a href={CV}>
-                    <button className="hover">Resume</button>
-                </a>
+               
             </div>
             <div className="hero-image">
                 <img className="hero" src={myimg} alt="Profile picture of Nikitha" />
